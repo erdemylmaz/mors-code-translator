@@ -37,10 +37,12 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    width: 100%;
 }
 
 .input {
-    width: 512px;
+    width: 90%;
+    max-width: 512px;
     padding: 16px 4px;
     border-radius: 4px;
     font-size: 24px;
@@ -61,7 +63,8 @@ body {
 
 .translate-type-area {
     display: flex;
-    width: 512px;
+    width: 90%;
+    max-width: 512px;
     align-items: center;
 }
 
@@ -82,7 +85,8 @@ body {
 }
 
 .output-area {
-    width: 512px;
+    width: 90%;
+    max-width: 512px;
     min-height: 512px;
     margin-top: 8px;
     padding: 8px 4px;
@@ -127,7 +131,8 @@ body {
 
 .output-title {
     margin-top: 24px;
-    width: 512px;
+    max-width: 512px;
+    width: 90%;
     font-size: 24px;
     color: var(--legoBlue);
     font-weight: 700;
